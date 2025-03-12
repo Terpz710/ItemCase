@@ -1,5 +1,5 @@
 main: aliuly\itemcasepe\Main
-api: [3.19.0]
+api: 5.0.0
 load: POSTWORLD
 
 name: ItemCasePE
@@ -13,15 +13,3 @@ commands:
     usage: "/itemcase [add|cancel|respawn]"
     aliases: [ic]
     permission: itemcase.cmd
-
-permissions:
- itemcase:
-  default: false
-  description: "allow players access to all itemcase features"
-  children:
-   itemcase.cmd:
-    default: op
-    description: "allow players access to the itemcase command"
-   itemcase.destroy:
-    default: op
-    description: "allow players to destroy cases"
