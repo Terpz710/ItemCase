@@ -13,3 +13,7 @@ commands:
     usage: "/itemcase [add|cancel|respawn]"
     aliases: [ic]
     permission: itemcase.cmd
+
+permissions:
+  itemcase.cmd:
+    default: op
